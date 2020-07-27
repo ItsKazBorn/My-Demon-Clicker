@@ -218,7 +218,6 @@ class MainViewController: UIViewController, UIGestureRecognizerDelegate {
     var containerViewDelegate : MainViewControllerDelegate!
     
     func beginChangeTab () {
-        print("Begin Change Tab")
         containerViewDelegate = ContainerViewController.shared.delegate
         changingTab = true
         if !bottomAreaHidden {
@@ -229,17 +228,14 @@ class MainViewController: UIViewController, UIGestureRecognizerDelegate {
     }
     
     func switchViewController () {
-        print("Switch View Controller")
         switch selectedTab {
             case .first:
-                print("Changing to 2nd Tab")
                 topTabImageView.image = UIImage(named: "Tab IAP")
                 bottomTabImageView.image = UIImage(named: "Tab Upgrade")
                 containerViewDelegate.switchTab()
                 selectedTab = .second
                 
             case .second:
-                print("Changing to 1st Tab")
                 topTabImageView.image = UIImage(named: "Tab Upgrade")
                 bottomTabImageView.image = UIImage(named: "Tab IAP")
                 containerViewDelegate.switchTab()
@@ -247,11 +243,9 @@ class MainViewController: UIViewController, UIGestureRecognizerDelegate {
         }
         showTabContent()
         changingTab = false
-        print("Finished Changing Tab")
     }
     
     func toggleShowHideTabContent () {
-        print("Toggle show/hide Content")
         if bottomAreaHidden {
             showTabContent()
         }
@@ -261,27 +255,20 @@ class MainViewController: UIViewController, UIGestureRecognizerDelegate {
     }
     
     func showTabContent() {
-        print("Showing Content")
         UIView.animate(withDuration: 0.3, animations: {
             self.bottomAreaBottomConstraint.constant = 0
             self.view.layoutIfNeeded()
             self.bottomAreaHidden = false
-            print("Tab Opened")
-        }, completion: { _ in
-            print("Tab Opened Completion")
         })
     }
     
     func hideTabContent() {
-        print("Hiding Content")
         let bottomHeight = bottomAreaView.frame.height
         UIView.animate(withDuration: 0.3, animations: {
             self.bottomAreaBottomConstraint.constant = 0 - (bottomHeight - 10)
             self.view.layoutIfNeeded()
             self.bottomAreaHidden = true
-            print("Tab Closed")
         }, completion: { _ in
-            print("Tab Closed Completion")
             if self.changingTab {
                 self.switchViewController()
             }
@@ -289,23 +276,17 @@ class MainViewController: UIViewController, UIGestureRecognizerDelegate {
     }
     
     @IBAction func tab1Clicked(_ sender: UIButton) {
-        print("-> 1st Tab Clicked")
         if selectedTab == .first {
-            print("Toggle Content 1st Tab")
             toggleShowHideTabContent()
         } else {
-            print("Start Changing to 1st Tab")
             beginChangeTab()
         }
     }
     
     @IBAction func tab2Clicked(_ sender: UIButton) {
-        print("-> 2nd Tab Clicked")
         if selectedTab == .second {
-            print("Toggle Content 2nd Tab")
             toggleShowHideTabContent()
         } else {
-            print("Start Changing to 2nd Tab")
             beginChangeTab()
         }
     }
@@ -322,10 +303,10 @@ extension MainViewController : GameManagerDelegate {
     
     func hasUpdatedCPM(newCPM: Double) {
         if newCPM >= 60 {
-            currentCPM = newCPM
+            currentCPM = newCPM / 60.0
             coinsPerLabel.text = "/sec"
         } else {
-            currentCPM = newCPM * 60
+            currentCPM = newCPM
             coinsPerLabel.text = "/Min"
         }
     }

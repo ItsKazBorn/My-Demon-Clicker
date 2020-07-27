@@ -18,7 +18,7 @@ class InAppPurchasesViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         refreshInterface()
     }
     
@@ -31,8 +31,6 @@ class InAppPurchasesViewController: UIViewController {
 
 extension InAppPurchasesViewController : MainViewControllerDelegate {
     func switchTab() {
-        if let upgradesVC = self.storyboard?.instantiateViewController(withIdentifier: "UpgradesTab") {
-            self.show(upgradesVC, sender: self)
-        }
+        self.tabBarController!.selectedIndex = 0
     }
 }

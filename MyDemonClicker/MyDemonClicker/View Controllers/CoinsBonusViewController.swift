@@ -30,12 +30,6 @@ class CoinsBonusViewController: UIViewController, GADRewardedAdDelegate {
     }
     
     @IBAction func noClicked(_ sender: UIButton) {
-        AdTabTimer.shared.videoAvailable = false
-        
-        Analytics.logEvent("refused_ad", parameters: [
-            "screen_name" : "Bonus Coins Screen"
-        ])
-        
         self.dismiss(animated: true, completion: nil)
     }
     
@@ -63,5 +57,16 @@ class CoinsBonusViewController: UIViewController, GADRewardedAdDelegate {
         super.viewWillAppear(animated)
         
         refreshInterface()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        
+        AdTabTimer.shared.videoAvailable = false
+        
+        Analytics.logEvent("refused_ad", parameters: [
+            "screen_name" : "Bonus Coins Screen"
+        ])
+        
+        super.viewWillDisappear(animated)
     }
 }

@@ -61,6 +61,12 @@ class UpgradesTabViewController: UIViewController, UICollectionViewDataSource {
         
         refreshInterface()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        refreshInterface()
+    }
 }
 
 extension UpgradesTabViewController : UpgradeCollectionViewCellDelegate {
@@ -95,8 +101,6 @@ extension UpgradesTabViewController : GameManagerDelegate {
 
 extension UpgradesTabViewController : MainViewControllerDelegate {
     func switchTab() {
-        if let inAppPurchases = self.storyboard?.instantiateViewController(withIdentifier: "InAppPurchases") as? InAppPurchasesViewController {
-            self.show(inAppPurchases, sender: self)
-        }
+        self.tabBarController!.selectedIndex = 1
     }
 }

@@ -45,16 +45,16 @@
                                         <rect key="frame" x="20" y="44" width="374" height="115"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="yqk-lq-8H0">
-                                                <rect key="frame" x="0.0" y="28.5" width="374" height="86.5"/>
+                                                <rect key="frame" x="0.0" y="23.5" width="374" height="91.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JYV-9J-QE2" userLabel="Total Coins">
-                                                        <rect key="frame" x="21.5" y="0.0" width="331" height="47"/>
+                                                        <rect key="frame" x="21.5" y="0.0" width="331" height="50"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" verticalHuggingPriority="253" translatesAutoresizingMaskIntoConstraints="NO" id="zwJ-sy-GvH" userLabel="Text">
-                                                                <rect key="frame" x="65.5" y="0.0" width="200.5" height="47"/>
+                                                                <rect key="frame" x="56.5" y="0.0" width="218" height="50"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" text="123456789" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7cp-BP-N6n">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="200.5" height="47"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="218" height="50"/>
                                                                         <fontDescription key="fontDescription" name="hundrighting" family="hundrighting" pointSize="40"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -69,7 +69,7 @@
                                                                 </constraints>
                                                             </view>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Moeda" translatesAutoresizingMaskIntoConstraints="NO" id="qHo-aP-UA9">
-                                                                <rect key="frame" x="271" y="7" width="32.5" height="32.5"/>
+                                                                <rect key="frame" x="279.5" y="7.5" width="35" height="35"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="qHo-aP-UA9" secondAttribute="height" multiplier="1:1" id="3k2-LI-WvQ"/>
                                                                 </constraints>
@@ -86,13 +86,13 @@
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ReP-0b-LZX" userLabel="CPM">
-                                                        <rect key="frame" x="21.5" y="57" width="331" height="29.5"/>
+                                                        <rect key="frame" x="21.5" y="60" width="331" height="31.5"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4x0-jd-yCs" userLabel="Text">
-                                                                <rect key="frame" x="103" y="0.0" width="125.5" height="29.5"/>
+                                                                <rect key="frame" x="97.5" y="0.0" width="136.5" height="31.5"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" text="123456789" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BeL-jd-d0E">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="125.5" height="29.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="136.5" height="31.5"/>
                                                                         <fontDescription key="fontDescription" name="hundrighting" family="hundrighting" pointSize="25"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -107,13 +107,13 @@
                                                                 </constraints>
                                                             </view>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Moeda" translatesAutoresizingMaskIntoConstraints="NO" id="FyL-a8-CKy">
-                                                                <rect key="frame" x="233.5" y="4" width="20.5" height="21"/>
+                                                                <rect key="frame" x="239" y="4.5" width="22" height="22"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="FyL-a8-CKy" secondAttribute="height" multiplier="1:1" id="F1f-iX-l2a"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="/MIn" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSX-1Q-HQI">
-                                                                <rect key="frame" x="254" y="9" width="36.5" height="21"/>
+                                                                <rect key="frame" x="261" y="9.5" width="38.5" height="22.5"/>
                                                                 <fontDescription key="fontDescription" name="hundrighting" family="hundrighting" pointSize="18"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -226,7 +226,7 @@
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foC-kf-XUj">
                                                 <rect key="frame" x="0.0" y="0.0" width="70.5" height="50"/>
-                                                <color key="backgroundColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
                                                     <action selector="tab1Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qml-V5-bIF"/>
                                                 </connections>
@@ -249,7 +249,7 @@
                                         <rect key="frame" x="103.5" y="0.0" width="6.5" height="59"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
-                                    <view userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="253" translatesAutoresizingMaskIntoConstraints="NO" id="8hM-h1-ezs" userLabel="Tab 2">
+                                    <view hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="253" translatesAutoresizingMaskIntoConstraints="NO" id="8hM-h1-ezs" userLabel="Tab 2">
                                         <rect key="frame" x="110" y="4.5" width="70.5" height="50"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dTX-f1-hlW" userLabel="Content View">
@@ -272,8 +272,7 @@
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXf-1U-ZxN">
                                                 <rect key="frame" x="0.0" y="0.0" width="70.5" height="50"/>
-                                                <color key="backgroundColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
                                                     <action selector="tab2Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2oa-xw-MN5"/>
                                                 </connections>
@@ -322,7 +321,7 @@
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AZH-0w-AZi">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
                                         <connections>
-                                            <segue destination="lIb-oU-kEv" kind="embed" id="I6M-kn-f8v"/>
+                                            <segue destination="aau-Ey-nK5" kind="embed" id="a2P-s0-E83"/>
                                         </connections>
                                     </containerView>
                                 </subviews>
@@ -382,22 +381,22 @@
                                                 <rect key="frame" x="9.5" y="10" width="78" height="47"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="rp5-eG-qYZ">
-                                                        <rect key="frame" x="5.5" y="1.5" width="67" height="44.5"/>
+                                                        <rect key="frame" x="6.5" y="0.0" width="65.5" height="47"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="0:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mcg-bk-8zJ">
-                                                                <rect key="frame" x="0.0" y="0.0" width="67" height="23.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="65.5" height="25"/>
                                                                 <fontDescription key="fontDescription" name="hundrighting" family="hundrighting" pointSize="20"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="0ra-ho-wK8">
-                                                                <rect key="frame" x="5" y="25.5" width="57" height="19"/>
+                                                                <rect key="frame" x="2" y="27" width="61" height="20"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wye-tM-BVh" userLabel="Video">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="17.5" height="19"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="18.5" height="20"/>
                                                                         <subviews>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Video" translatesAutoresizingMaskIntoConstraints="NO" id="iWD-Ye-Ut2">
-                                                                                <rect key="frame" x="0.0" y="1.5" width="17.5" height="15.5"/>
+                                                                                <rect key="frame" x="0.0" y="2" width="18.5" height="16"/>
                                                                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" secondItem="iWD-Ye-Ut2" secondAttribute="height" multiplier="23:20" id="lt8-BP-1CG"/>
@@ -413,17 +412,17 @@
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ma5-se-N9m" userLabel="Coins x2">
-                                                                        <rect key="frame" x="22.5" y="0.0" width="34.5" height="19"/>
+                                                                        <rect key="frame" x="23.5" y="0.0" width="37.5" height="20"/>
                                                                         <subviews>
                                                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" image="Moeda" translatesAutoresizingMaskIntoConstraints="NO" id="brt-T1-9aC">
-                                                                                <rect key="frame" x="0.0" y="1.5" width="15" height="15.5"/>
+                                                                                <rect key="frame" x="0.0" y="2" width="16" height="16"/>
                                                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" secondItem="brt-T1-9aC" secondAttribute="height" multiplier="1:1" id="PVy-w1-hSu"/>
                                                                                 </constraints>
                                                                             </imageView>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="990" verticalHuggingPriority="990" text="x2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5W-Tf-FLF">
-                                                                                <rect key="frame" x="17" y="0.0" width="17.5" height="19"/>
+                                                                                <rect key="frame" x="18" y="0.0" width="19.5" height="20"/>
                                                                                 <fontDescription key="fontDescription" name="hundrighting" family="hundrighting" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -458,13 +457,13 @@
                                                 <rect key="frame" x="9.5" y="10" width="78" height="47"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="cab-dr-VI6">
-                                                        <rect key="frame" x="21.5" y="0.0" width="35" height="47"/>
+                                                        <rect key="frame" x="20.5" y="0.0" width="37.5" height="47"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v4M-1J-XDg" userLabel="Video">
-                                                                <rect key="frame" x="2.5" y="0.0" width="30" height="26"/>
+                                                                <rect key="frame" x="4" y="0.0" width="29" height="25"/>
                                                                 <subviews>
                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Video" translatesAutoresizingMaskIntoConstraints="NO" id="04K-kx-XVq">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="30" height="26"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="29" height="25"/>
                                                                         <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="04K-kx-XVq" secondAttribute="height" multiplier="23:20" id="UEN-ag-aHJ"/>
@@ -480,17 +479,17 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XIZ-fT-oXm" userLabel="Coins x2">
-                                                                <rect key="frame" x="0.0" y="28" width="35" height="19"/>
+                                                                <rect key="frame" x="0.0" y="27" width="37.5" height="20"/>
                                                                 <subviews>
                                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" image="Moeda" translatesAutoresizingMaskIntoConstraints="NO" id="e1Y-I4-Xaw">
-                                                                        <rect key="frame" x="0.0" y="2" width="15.5" height="15"/>
+                                                                        <rect key="frame" x="0.0" y="2" width="16" height="16"/>
                                                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="e1Y-I4-Xaw" secondAttribute="height" multiplier="1:1" id="kyh-rq-ZnK"/>
                                                                         </constraints>
                                                                     </imageView>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="990" verticalHuggingPriority="990" text="x2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Acd-es-eQg">
-                                                                        <rect key="frame" x="17.5" y="0.0" width="17.5" height="19"/>
+                                                                        <rect key="frame" x="18" y="0.0" width="19.5" height="20"/>
                                                                         <fontDescription key="fontDescription" name="hundrighting" family="hundrighting" pointSize="16"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -846,7 +845,7 @@
             </objects>
             <point key="canvasLocation" x="2035" y="461"/>
         </scene>
-        <!--Upgrades Tab View Controller-->
+        <!--Item-->
         <scene sceneID="ktp-JC-fiW">
             <objects>
                 <viewController storyboardIdentifier="UpgradesTab" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lIb-oU-kEv" customClass="UpgradesTabViewController" customModule="MyDemonClicker" customModuleProvider="target" sceneMemberID="viewController">
@@ -891,38 +890,38 @@
                                                                     <rect key="frame" x="70" y="0.0" width="143" height="78"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Name" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNL-vg-Pcw">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="143" height="27.5"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="143" height="24"/>
                                                                             <fontDescription key="fontDescription" name="hundrighting" family="hundrighting" pointSize="18"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="lvl 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GUu-Dl-mMz">
-                                                                            <rect key="frame" x="0.0" y="27.5" width="22" height="14"/>
+                                                                            <rect key="frame" x="0.0" y="24" width="22" height="15"/>
                                                                             <fontDescription key="fontDescription" name="hundrighting" family="hundrighting" pointSize="12"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="249" text="IncRate" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Glb-ee-39o">
-                                                                            <rect key="frame" x="101.5" y="27.5" width="41.5" height="14"/>
+                                                                            <rect key="frame" x="97.5" y="24" width="45.5" height="15"/>
                                                                             <fontDescription key="fontDescription" name="hundrighting" family="hundrighting" pointSize="12"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LO0-Q1-eix" userLabel="Progress Bar">
-                                                                            <rect key="frame" x="0.0" y="41.5" width="143" height="15.5"/>
+                                                                            <rect key="frame" x="0.0" y="39" width="143" height="16.5"/>
                                                                             <subviews>
                                                                                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3w6-7l-2ac" userLabel="Background">
-                                                                                    <rect key="frame" x="1.5" y="1" width="140" height="14"/>
+                                                                                    <rect key="frame" x="1.5" y="1" width="140" height="15"/>
                                                                                     <subviews>
                                                                                         <view clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="khd-6I-1bP" userLabel="ProgressBar">
-                                                                                            <rect key="frame" x="0.0" y="0.0" width="70" height="14"/>
+                                                                                            <rect key="frame" x="0.0" y="0.0" width="70" height="15"/>
                                                                                             <color key="backgroundColor" red="0.73614948989999995" green="0.62387776370000003" blue="0.18251502510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                             <constraints>
                                                                                                 <constraint firstAttribute="width" constant="70" id="U9t-DJ-Wuj"/>
                                                                                             </constraints>
                                                                                         </view>
                                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x2 coInS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i83-UI-4aR">
-                                                                                            <rect key="frame" x="0.0" y="0.0" width="140" height="14"/>
+                                                                                            <rect key="frame" x="0.0" y="0.0" width="140" height="15"/>
                                                                                             <fontDescription key="fontDescription" name="hundrighting" family="hundrighting" pointSize="12"/>
                                                                                             <nil key="textColor"/>
                                                                                             <nil key="highlightedColor"/>
@@ -949,20 +948,20 @@
                                                                             </constraints>
                                                                         </view>
                                                                         <view clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ovO-dq-kAq" userLabel="Buy Next Level">
-                                                                            <rect key="frame" x="0.0" y="57" width="143" height="21"/>
+                                                                            <rect key="frame" x="0.0" y="55.5" width="143" height="22.5"/>
                                                                             <subviews>
                                                                                 <view contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hsO-ed-5c7" userLabel="Price">
-                                                                                    <rect key="frame" x="93.5" y="0.0" width="49.5" height="21"/>
+                                                                                    <rect key="frame" x="90.5" y="0.0" width="52.5" height="22.5"/>
                                                                                     <subviews>
                                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Moeda" translatesAutoresizingMaskIntoConstraints="NO" id="YHo-ix-plX">
-                                                                                            <rect key="frame" x="32.5" y="2" width="17" height="17"/>
+                                                                                            <rect key="frame" x="34.5" y="2.5" width="18" height="18"/>
                                                                                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                             <constraints>
                                                                                                 <constraint firstAttribute="width" secondItem="YHo-ix-plX" secondAttribute="height" multiplier="1:1" id="tWJ-S8-RHt"/>
                                                                                             </constraints>
                                                                                         </imageView>
                                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="1000" text="999" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfh-Bz-dlp">
-                                                                                            <rect key="frame" x="0.0" y="0.0" width="30.5" height="21"/>
+                                                                                            <rect key="frame" x="0.0" y="0.0" width="32.5" height="22.5"/>
                                                                                             <fontDescription key="fontDescription" name="hundrighting" family="hundrighting" pointSize="18"/>
                                                                                             <nil key="textColor"/>
                                                                                             <nil key="highlightedColor"/>
@@ -1119,6 +1118,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nGr-Ic-6sT"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="09w-GH-mTf"/>
+                    <navigationItem key="navigationItem" id="fIL-P2-GAb"/>
                     <size key="freeformSize" width="414" height="150"/>
                     <connections>
                         <outlet property="collectionView" destination="GTK-dk-y41" id="yT1-vP-YAy"/>
@@ -1126,9 +1127,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cS1-ce-v8r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="651.5625"/>
+            <point key="canvasLocation" x="-157" y="848"/>
         </scene>
-        <!--In App Purchases View Controller-->
+        <!--Item-->
         <scene sceneID="HkA-vQ-Nfa">
             <objects>
                 <viewController storyboardIdentifier="IAPTab" useStoryboardIdentifierAsRestorationIdentifier="YES" id="iAs-Bh-eWb" customClass="InAppPurchasesViewController" customModule="MyDemonClicker" customModuleProvider="target" sceneMemberID="viewController">
@@ -1172,13 +1173,13 @@
                                                                     <rect key="frame" x="70.5" y="0.0" width="142.5" height="78"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Name" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goC-L8-gHb">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="142.5" height="21"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="142.5" height="22.5"/>
                                                                             <fontDescription key="fontDescription" name="hundrighting" family="hundrighting" pointSize="18"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Description" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kuT-Rr-7ei" userLabel="Description Label">
-                                                                            <rect key="frame" x="0.0" y="21" width="142.5" height="14"/>
+                                                                            <rect key="frame" x="0.0" y="22.5" width="142.5" height="15"/>
                                                                             <fontDescription key="fontDescription" name="hundrighting" family="hundrighting" pointSize="12"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
@@ -1291,11 +1292,33 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xs2-EJ-V60"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="TM3-3U-JYl"/>
                     <size key="freeformSize" width="414" height="150"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D6T-Tt-c6P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="854" y="652"/>
+            <point key="canvasLocation" x="529" y="848"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="vaH-rj-eL5">
+            <objects>
+                <tabBarController id="aau-Ey-nK5" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" hidden="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9UZ-fV-ZPC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="lIb-oU-kEv" kind="relationship" relationship="viewControllers" id="rh8-GY-euz"/>
+                        <segue destination="iAs-Bh-eWb" kind="relationship" relationship="viewControllers" id="J2k-10-vfG"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SgW-MW-hPT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="575"/>
         </scene>
         <!--Coins Bonus-->
         <scene sceneID="0L8-Z0-ti6">

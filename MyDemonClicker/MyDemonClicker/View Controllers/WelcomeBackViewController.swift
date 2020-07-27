@@ -28,13 +28,6 @@ class WelcomeBackViewController: UIViewController, GADRewardedAdDelegate {
     }
     
     @IBAction func noAdClicked(_ sender: UIButton) {
-        Analytics.logEvent("refused_ad", parameters: [
-            "screen_name" : "Welcome Back Screen"
-        ])
-        
-        GameManager.shared.currentTotalCoins += GameManager.shared.awayCoins
-        GameManager.shared.welcomeBack = false
-        
         self.dismiss(animated: true, completion: nil)
     }
     
@@ -62,5 +55,17 @@ class WelcomeBackViewController: UIViewController, GADRewardedAdDelegate {
         super.viewWillAppear(animated)
         
         refreshInterface()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        
+        Analytics.logEvent("refused_ad", parameters: [
+            "screen_name" : "Welcome Back Screen"
+        ])
+        
+        GameManager.shared.currentTotalCoins += GameManager.shared.awayCoins
+        GameManager.shared.welcomeBack = false
+        
+        super.viewWillDisappear(animated)
     }
 }

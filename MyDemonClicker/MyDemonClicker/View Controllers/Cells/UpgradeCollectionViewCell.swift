@@ -137,7 +137,8 @@ extension UpgradeCollectionViewCell : GameManagerDelegate {
 extension UpgradeCollectionViewCell : UpgradeDelegate {
     func hasChangedIncomeMultiplier() {
         let text = "x2!"
-        let pos = progressBarBackground.center
+        let pos = progressBar.center
+        print(pos)
         
         realContentView.animatedLabel(text, pos: pos, fontSize: 20.0)
     }

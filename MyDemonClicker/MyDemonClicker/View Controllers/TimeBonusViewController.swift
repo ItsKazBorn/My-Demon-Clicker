@@ -24,10 +24,6 @@ class TimeBonusViewController: UIViewController, GADRewardedAdDelegate {
     }
     
     @IBAction func noAdClicked(_ sender: UIButton) {
-        Analytics.logEvent("refused_ad", parameters: [
-            "screen_name" : "x2 Coins Screen"
-        ])
-        
         self.dismiss(animated: true, completion: nil)
     }
     
@@ -59,5 +55,14 @@ class TimeBonusViewController: UIViewController, GADRewardedAdDelegate {
         super.viewWillAppear(animated)
         
         refreshInterface()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        
+        Analytics.logEvent("refused_ad", parameters: [
+            "screen_name" : "x2 Coins Screen"
+        ])
+        
+        super.viewWillDisappear(animated)
     }
 }
