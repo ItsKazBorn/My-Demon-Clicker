@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47B2662F855E8F50EE1C9842 /* Pods_MyDemonClicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBED1BA60F2AC97BF16EC128 /* Pods_MyDemonClicker.framework */; };
+		6F054730241970650060FF01 /* CoinsFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F05472F241970650060FF01 /* CoinsFormatter.swift */; };
+		6F1A8BCB243D035000B917D1 /* extensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1A8BCA243D035000B917D1 /* extensionUIView.swift */; };
+		6F1DDDF62438090E003703AD /* Idle.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F1DDDF42438090D003703AD /* Idle.json */; };
+		6F1DDDF72438090E003703AD /* Tap.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F1DDDF52438090D003703AD /* Tap.json */; };
+		6F2305022421A090005B8D37 /* WelcomeBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2305012421A090005B8D37 /* WelcomeBackViewController.swift */; };
+		6F261BC224A59656003F0F35 /* AdTabTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F261BC124A59656003F0F35 /* AdTabTimer.swift */; };
+		6F2F6A2B242ADF0A009A8CFE /* CoinsBonusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2F6A2A242ADF0A009A8CFE /* CoinsBonusViewController.swift */; };
+		6F2F6A2D242AE17A009A8CFE /* TimeBonusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2F6A2C242AE17A009A8CFE /* TimeBonusViewController.swift */; };
+		6F3E2B86243D31CE00C3CD47 /* IntroWithLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E2B7C243D31CD00C3CD47 /* IntroWithLoop.swift */; };
+		6F3E2B87243D31CE00C3CD47 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E2B7D243D31CD00C3CD47 /* Song.swift */; };
+		6F3E2B88243D31CE00C3CD47 /* AudioLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E2B7E243D31CD00C3CD47 /* AudioLibrary.swift */; };
+		6F3E2B89243D31CE00C3CD47 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E2B7F243D31CD00C3CD47 /* AudioManager.swift */; };
+		6F3E2B8A243D31CE00C3CD47 /* SoundEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E2B80243D31CD00C3CD47 /* SoundEffects.swift */; };
+		6F3E2B91243D321E00C3CD47 /* Coin-Buy.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F3E2B8F243D321E00C3CD47 /* Coin-Buy.wav */; };
+		6F3E2B92243D321E00C3CD47 /* Click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F3E2B90243D321E00C3CD47 /* Click.wav */; };
+		6F6C134024A5532400D1E577 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F6C133F24A5532400D1E577 /* GoogleService-Info.plist */; };
+		6F716EFD241821650003FF8A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F716EFC241821650003FF8A /* MainViewController.swift */; };
+		6F716EFF241833D60003FF8A /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F716EFE241833D60003FF8A /* ContainerViewController.swift */; };
+		6F966FA6242EA53F0052E948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F966FA5242EA53F0052E948 /* Main.storyboard */; };
+		6F966FA8242EB4480052E948 /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F966FA7242EB4480052E948 /* CountdownTimer.swift */; };
+		6FABD79E241AAEC400E1F9A9 /* UpgradesTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD79D241AAEC400E1F9A9 /* UpgradesTabViewController.swift */; };
+		6FABD7A0241AAF0900E1F9A9 /* InAppPurchasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD79F241AAF0900E1F9A9 /* InAppPurchasesViewController.swift */; };
+		6FABD7A3241AB65000E1F9A9 /* UpgradeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7A2241AB65000E1F9A9 /* UpgradeCollectionViewCell.swift */; };
+		6FABD7A5241AC24100E1F9A9 /* CollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FABD7A4241AC24100E1F9A9 /* CollectionViewLayout.swift */; };
+		6FB7D96A24133B4800175C3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7D96924133B4800175C3E /* AppDelegate.swift */; };
+		6FB7D96C24133B4800175C3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7D96B24133B4800175C3E /* SceneDelegate.swift */; };
+		6FB7D97424133B4900175C3E /* MyDemonClicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7D97224133B4900175C3E /* MyDemonClicker.xcdatamodeld */; };
+		6FB7D97624133B4E00175C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FB7D97524133B4E00175C3E /* Assets.xcassets */; };
+		6FB7D97924133B4E00175C3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB7D97724133B4E00175C3E /* LaunchScreen.storyboard */; };
+		6FB7D984241341B600175C3E /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7D983241341B600175C3E /* GameManager.swift */; };
+		6FB7D989241342A700175C3E /* Upgrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7D988241342A700175C3E /* Upgrade.swift */; };
+		6FD5600A2422D29400218616 /* hundrighting.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FD560092422D29400218616 /* hundrighting.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39D41A580C1B6E4DFB0C76BF /* Pods-MyDemonClicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemonClicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemonClicker/Pods-MyDemonClicker.debug.xcconfig"; sourceTree = "<group>"; };
+		6F05472F241970650060FF01 /* CoinsFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsFormatter.swift; sourceTree = "<group>"; };
+		6F1A8BCA243D035000B917D1 /* extensionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionUIView.swift; sourceTree = "<group>"; };
+		6F1DDDF42438090D003703AD /* Idle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Idle.json; sourceTree = "<group>"; };
+		6F1DDDF52438090D003703AD /* Tap.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tap.json; sourceTree = "<group>"; };
+		6F2305012421A090005B8D37 /* WelcomeBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBackViewController.swift; sourceTree = "<group>"; };
+		6F261BC124A59656003F0F35 /* AdTabTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdTabTimer.swift; sourceTree = "<group>"; };
+		6F2F6A2A242ADF0A009A8CFE /* CoinsBonusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsBonusViewController.swift; sourceTree = "<group>"; };
+		6F2F6A2C242AE17A009A8CFE /* TimeBonusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBonusViewController.swift; sourceTree = "<group>"; };
+		6F3E2B7C243D31CD00C3CD47 /* IntroWithLoop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroWithLoop.swift; sourceTree = "<group>"; };
+		6F3E2B7D243D31CD00C3CD47 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		6F3E2B7E243D31CD00C3CD47 /* AudioLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioLibrary.swift; sourceTree = "<group>"; };
+		6F3E2B7F243D31CD00C3CD47 /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		6F3E2B80243D31CD00C3CD47 /* SoundEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundEffects.swift; sourceTree = "<group>"; };
+		6F3E2B8F243D321E00C3CD47 /* Coin-Buy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Coin-Buy.wav"; sourceTree = "<group>"; };
+		6F3E2B90243D321E00C3CD47 /* Click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Click.wav; sourceTree = "<group>"; };
+		6F6C133F24A5532400D1E577 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6F716EFC241821650003FF8A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6F716EFE241833D60003FF8A /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		6F966FA5242EA53F0052E948 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6F966FA7242EB4480052E948 /* CountdownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
+		6FABD79D241AAEC400E1F9A9 /* UpgradesTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradesTabViewController.swift; sourceTree = "<group>"; };
+		6FABD79F241AAF0900E1F9A9 /* InAppPurchasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppPurchasesViewController.swift; sourceTree = "<group>"; };
+		6FABD7A2241AB65000E1F9A9 /* UpgradeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeCollectionViewCell.swift; sourceTree = "<group>"; };
+		6FABD7A4241AC24100E1F9A9 /* CollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLayout.swift; sourceTree = "<group>"; };
+		6FB7D96624133B4800175C3E /* MyDemonClicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDemonClicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB7D96924133B4800175C3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FB7D96B24133B4800175C3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6FB7D97324133B4900175C3E /* MyDemonClicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDemonClicker.xcdatamodel; sourceTree = "<group>"; };
+		6FB7D97524133B4E00175C3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FB7D97824133B4E00175C3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FB7D97A24133B4E00175C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FB7D983241341B600175C3E /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		6FB7D988241342A700175C3E /* Upgrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upgrade.swift; sourceTree = "<group>"; };
+		6FD560092422D29400218616 /* hundrighting.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hundrighting.ttf; sourceTree = "<group>"; };
+		BBED1BA60F2AC97BF16EC128 /* Pods_MyDemonClicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDemonClicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3E7B59EC278F51A4A272BA /* Pods-MyDemonClicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemonClicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemonClicker/Pods-MyDemonClicker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FB7D96324133B4800175C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B2662F855E8F50EE1C9842 /* Pods_MyDemonClicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F1DDDF3243808FD003703AD /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				6F1DDDF42438090D003703AD /* Idle.json */,
+				6F1DDDF52438090D003703AD /* Tap.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		6F3E2B7B243D31CD00C3CD47 /* AudioModule */ = {
+			isa = PBXGroup;
+			children = (
+				6F3E2B7E243D31CD00C3CD47 /* AudioLibrary.swift */,
+				6F3E2B7C243D31CD00C3CD47 /* IntroWithLoop.swift */,
+				6F3E2B7D243D31CD00C3CD47 /* Song.swift */,
+				6F3E2B7F243D31CD00C3CD47 /* AudioManager.swift */,
+				6F3E2B80243D31CD00C3CD47 /* SoundEffects.swift */,
+			);
+			path = AudioModule;
+			sourceTree = "<group>";
+		};
+		6F3E2B8E243D31F500C3CD47 /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				6F3E2B90243D321E00C3CD47 /* Click.wav */,
+				6F3E2B8F243D321E00C3CD47 /* Coin-Buy.wav */,
+			);
+			path = SFX;
+			sourceTree = "<group>";
+		};
+		6FABD7A1241AB62900E1F9A9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6FABD7A2241AB65000E1F9A9 /* UpgradeCollectionViewCell.swift */,
+				6FABD7A4241AC24100E1F9A9 /* CollectionViewLayout.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6FB7D95D24133B4800175C3E = {
+			isa = PBXGroup;
+			children = (
+				6FB7D96824133B4800175C3E /* MyDemonClicker */,
+				6FB7D96724133B4800175C3E /* Products */,
+				8BEB2F167C235737C69F4510 /* Pods */,
+				F6E60F55FC52792176CA8AD5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6FB7D96724133B4800175C3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FB7D96624133B4800175C3E /* MyDemonClicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FB7D96824133B4800175C3E /* MyDemonClicker */ = {
+			isa = PBXGroup;
+			children = (
+				6F1DDDF3243808FD003703AD /* Animations */,
+				6F3E2B8E243D31F500C3CD47 /* SFX */,
+				6F3E2B7B243D31CD00C3CD47 /* AudioModule */,
+				6FD560082422D27200218616 /* Font */,
+				6FB7D97A24133B4E00175C3E /* Info.plist */,
+				6F6C133F24A5532400D1E577 /* GoogleService-Info.plist */,
+				6FB7D96924133B4800175C3E /* AppDelegate.swift */,
+				6FB7D96B24133B4800175C3E /* SceneDelegate.swift */,
+				6FB7D98024133B8F00175C3E /* View */,
+				6FB7D98124133B9F00175C3E /* View Controllers */,
+				6FB7D98224133BAD00175C3E /* Model */,
+				6FB7D97224133B4900175C3E /* MyDemonClicker.xcdatamodeld */,
+			);
+			path = MyDemonClicker;
+			sourceTree = "<group>";
+		};
+		6FB7D98024133B8F00175C3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F966FA5242EA53F0052E948 /* Main.storyboard */,
+				6FB7D97524133B4E00175C3E /* Assets.xcassets */,
+				6FB7D97724133B4E00175C3E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6FB7D98124133B9F00175C3E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6FABD7A1241AB62900E1F9A9 /* Cells */,
+				6F716EFC241821650003FF8A /* MainViewController.swift */,
+				6F2305012421A090005B8D37 /* WelcomeBackViewController.swift */,
+				6F2F6A2A242ADF0A009A8CFE /* CoinsBonusViewController.swift */,
+				6F2F6A2C242AE17A009A8CFE /* TimeBonusViewController.swift */,
+				6FABD79D241AAEC400E1F9A9 /* UpgradesTabViewController.swift */,
+				6FABD79F241AAF0900E1F9A9 /* InAppPurchasesViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6FB7D98224133BAD00175C3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6FB7D9872413429100175C3E /* Singletons */,
+				6FB7D988241342A700175C3E /* Upgrade.swift */,
+				6F1A8BCA243D035000B917D1 /* extensionUIView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6FB7D9872413429100175C3E /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				6FB7D983241341B600175C3E /* GameManager.swift */,
+				6F05472F241970650060FF01 /* CoinsFormatter.swift */,
+				6F966FA7242EB4480052E948 /* CountdownTimer.swift */,
+				6F261BC124A59656003F0F35 /* AdTabTimer.swift */,
+				6F716EFE241833D60003FF8A /* ContainerViewController.swift */,
+			);
+			path = Singletons;
+			sourceTree = "<group>";
+		};
+		6FD560082422D27200218616 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				6FD560092422D29400218616 /* hundrighting.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		8BEB2F167C235737C69F4510 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39D41A580C1B6E4DFB0C76BF /* Pods-MyDemonClicker.debug.xcconfig */,
+				CB3E7B59EC278F51A4A272BA /* Pods-MyDemonClicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6E60F55FC52792176CA8AD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBED1BA60F2AC97BF16EC128 /* Pods_MyDemonClicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FB7D96524133B4800175C3E /* MyDemonClicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FB7D97D24133B4E00175C3E /* Build configuration list for PBXNativeTarget "MyDemonClicker" */;
+			buildPhases = (
+				9B100DE1F427EAA6AA768E80 /* [CP] Check Pods Manifest.lock */,
+				6FB7D96224133B4800175C3E /* Sources */,
+				6FB7D96324133B4800175C3E /* Frameworks */,
+				6FB7D96424133B4800175C3E /* Resources */,
+				8FE4F4CAF602844AF9EC25E5 /* [CP] Embed Pods Frameworks */,
+				6F4F9BCE242B06280003F017 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDemonClicker;
+			productName = MyDemonClicker;
+			productReference = 6FB7D96624133B4800175C3E /* MyDemonClicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FB7D95E24133B4800175C3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Kaz Born";
+				TargetAttributes = {
+					6FB7D96524133B4800175C3E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6FB7D96124133B4800175C3E /* Build configuration list for PBXProject "MyDemonClicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FB7D95D24133B4800175C3E;
+			productRefGroup = 6FB7D96724133B4800175C3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FB7D96524133B4800175C3E /* MyDemonClicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FB7D96424133B4800175C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB7D97924133B4E00175C3E /* LaunchScreen.storyboard in Resources */,
+				6F3E2B91243D321E00C3CD47 /* Coin-Buy.wav in Resources */,
+				6F6C134024A5532400D1E577 /* GoogleService-Info.plist in Resources */,
+				6F966FA6242EA53F0052E948 /* Main.storyboard in Resources */,
+				6F1DDDF72438090E003703AD /* Tap.json in Resources */,
+				6F1DDDF62438090E003703AD /* Idle.json in Resources */,
+				6FB7D97624133B4E00175C3E /* Assets.xcassets in Resources */,
+				6F3E2B92243D321E00C3CD47 /* Click.wav in Resources */,
+				6FD5600A2422D29400218616 /* hundrighting.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F4F9BCE242B06280003F017 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n\"${PODS_ROOT}/FirebaseCrashlytics/upload-symbols\" -gsp  \"${PROJECT_DIR}/MyDemonClicker/GoogleService-Info.plist\" -p ios  \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\n";
+		};
+		8FE4F4CAF602844AF9EC25E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyDemonClicker/Pods-MyDemonClicker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyDemonClicker/Pods-MyDemonClicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B100DE1F427EAA6AA768E80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyDemonClicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FB7D96224133B4800175C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3E2B87243D31CE00C3CD47 /* Song.swift in Sources */,
+				6F1A8BCB243D035000B917D1 /* extensionUIView.swift in Sources */,
+				6F3E2B88243D31CE00C3CD47 /* AudioLibrary.swift in Sources */,
+				6F3E2B89243D31CE00C3CD47 /* AudioManager.swift in Sources */,
+				6FABD7A0241AAF0900E1F9A9 /* InAppPurchasesViewController.swift in Sources */,
+				6F966FA8242EB4480052E948 /* CountdownTimer.swift in Sources */,
+				6F2F6A2B242ADF0A009A8CFE /* CoinsBonusViewController.swift in Sources */,
+				6F3E2B86243D31CE00C3CD47 /* IntroWithLoop.swift in Sources */,
+				6FB7D97424133B4900175C3E /* MyDemonClicker.xcdatamodeld in Sources */,
+				6F716EFF241833D60003FF8A /* ContainerViewController.swift in Sources */,
+				6FB7D96A24133B4800175C3E /* AppDelegate.swift in Sources */,
+				6FABD7A3241AB65000E1F9A9 /* UpgradeCollectionViewCell.swift in Sources */,
+				6F261BC224A59656003F0F35 /* AdTabTimer.swift in Sources */,
+				6F2F6A2D242AE17A009A8CFE /* TimeBonusViewController.swift in Sources */,
+				6F3E2B8A243D31CE00C3CD47 /* SoundEffects.swift in Sources */,
+				6F054730241970650060FF01 /* CoinsFormatter.swift in Sources */,
+				6FB7D989241342A700175C3E /* Upgrade.swift in Sources */,
+				6FB7D96C24133B4800175C3E /* SceneDelegate.swift in Sources */,
+				6FB7D984241341B600175C3E /* GameManager.swift in Sources */,
+				6F2305022421A090005B8D37 /* WelcomeBackViewController.swift in Sources */,
+				6F716EFD241821650003FF8A /* MainViewController.swift in Sources */,
+				6FABD7A5241AC24100E1F9A9 /* CollectionViewLayout.swift in Sources */,
+				6FABD79E241AAEC400E1F9A9 /* UpgradesTabViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6FB7D97724133B4E00175C3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FB7D97824133B4E00175C3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FB7D97B24133B4E00175C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FB7D97C24133B4E00175C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FB7D97E24133B4E00175C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D41A580C1B6E4DFB0C76BF /* Pods-MyDemonClicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 8;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = V49QZ6458R;
+				INFOPLIST_FILE = MyDemonClicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MyDemonClicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "MyDemonClicker Development";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6FB7D97F24133B4E00175C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB3E7B59EC278F51A4A272BA /* Pods-MyDemonClicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = V49QZ6458R;
+				INFOPLIST_FILE = MyDemonClicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MyDemonClicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "MyDemonClicker Development";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FB7D96124133B4800175C3E /* Build configuration list for PBXProject "MyDemonClicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB7D97B24133B4E00175C3E /* Debug */,
+				6FB7D97C24133B4E00175C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FB7D97D24133B4E00175C3E /* Build configuration list for PBXNativeTarget "MyDemonClicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB7D97E24133B4E00175C3E /* Debug */,
+				6FB7D97F24133B4E00175C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6FB7D97224133B4900175C3E /* MyDemonClicker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6FB7D97324133B4900175C3E /* MyDemonClicker.xcdatamodel */,
+			);
+			currentVersion = 6FB7D97324133B4900175C3E /* MyDemonClicker.xcdatamodel */;
+			path = MyDemonClicker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6FB7D95E24133B4800175C3E /* Project object */;
+}
