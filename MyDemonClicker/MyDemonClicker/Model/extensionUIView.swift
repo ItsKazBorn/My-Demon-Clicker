@@ -34,7 +34,12 @@ extension UIView {
             label.center.y -= 25
             label.alpha = 0.0
             self.layoutIfNeeded()
+        }, completion: { _ in
+            label.removeFromSuperview()
+            self.layoutIfNeeded()
         })
+        
+        
     }
     
     public func stroke(font: UIFont, strokeWidth: Float, insideColor: UIColor, strokeColor: UIColor) -> [NSAttributedString.Key: Any]{
