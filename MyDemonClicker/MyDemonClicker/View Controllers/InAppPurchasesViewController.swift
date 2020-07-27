@@ -31,7 +31,7 @@ class InAppPurchasesViewController: UIViewController {
 
 extension InAppPurchasesViewController : MainViewControllerDelegate {
     func switchTab() {
-        if let upgradesVC = self.storyboard?.instantiateViewController(withIdentifier: "IAPTab") {
+        if let upgradesVC = self.storyboard?.instantiateViewController(withIdentifier: "UpgradesTab") {
             self.show(upgradesVC, sender: self)
         }
     }

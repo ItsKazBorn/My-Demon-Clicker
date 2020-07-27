@@ -267,6 +267,8 @@ class MainViewController: UIViewController, UIGestureRecognizerDelegate {
             self.view.layoutIfNeeded()
             self.bottomAreaHidden = false
             print("Tab Opened")
+        }, completion: { _ in
+            print("Tab Opened Completion")
         })
     }
     
@@ -287,7 +289,7 @@ class MainViewController: UIViewController, UIGestureRecognizerDelegate {
     }
     
     @IBAction func tab1Clicked(_ sender: UIButton) {
-        print("1st Tab Clicked")
+        print("-> 1st Tab Clicked")
         if selectedTab == .first {
             print("Toggle Content 1st Tab")
             toggleShowHideTabContent()
@@ -298,7 +300,7 @@ class MainViewController: UIViewController, UIGestureRecognizerDelegate {
     }
     
     @IBAction func tab2Clicked(_ sender: UIButton) {
-        print("2nd Tab Clicked")
+        print("-> 2nd Tab Clicked")
         if selectedTab == .second {
             print("Toggle Content 2nd Tab")
             toggleShowHideTabContent()
